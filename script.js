@@ -27,9 +27,11 @@ function Update_list(){
 
 function Button_add_task(){
     let text = Input_task.value;
-
-    tasks.push(text);
-    localStorage.setItem('tasks', JSON.stringify(tasks));
+    if (text.length > 0){
+        tasks.push(text);
+        localStorage.setItem('tasks', JSON.stringify(tasks));
+    }
+    
 
     Update_list();
 
