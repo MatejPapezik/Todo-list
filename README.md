@@ -35,4 +35,4 @@ Jednoduchá webová aplikace pro správu úkolů, vytvořená čistě pomocí HT
 
 ---
 
-Vytvořeno jako trénink základů frontend vývoje 💪
+Vytvořeno jako trénink základů frontend vývoje
